@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  background-image: url(./Maths.jpeg);
+}
+.Calculator {
+  padding: 150px;
+  border-radius: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  padding: 20px;
+}
+
+.screen {
+  width: 100%;
+  font-size: 5rem;
+  height: 80px;
+  border: none;
+  background-color: gray;
+  color: #fff;
+  border-radius: 20px;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+button.numbers:hover {
+  background-color: yellow;
+}
+
+button:hover {
+  background-color: green;
+}
+
+button.Numbers {
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+button {
+  font-size: 2rem;
+  border-radius: 50%;
+  border-width: 1rem;
+}
